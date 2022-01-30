@@ -15,7 +15,7 @@ use App\Http\Controllers\ProductController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-URL::forceRootUrl('http://studenti.sum.ba/projekti/rwa/2022/g20');
+//URL::forceRootUrl('http://studenti.sum.ba/projekti/rwa/2022/g20');
 
 Route::get('/login', function () {
     return view('login');
