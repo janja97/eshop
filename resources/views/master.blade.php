@@ -65,10 +65,12 @@
     /*treding*/
    .treding-wrapper{
         padding-left: 50px;
+        margin: 30px;
    }
    .treding-wrapper, h3{
        color: #4f9296;
-       font-weight: 700;
+       font-weight: 800;
+       font-size:50px;
    }
     .treding-img{
         height: 100px;
@@ -83,8 +85,8 @@
     .treding-item, a:hover{
         color:#4f9296;
     }
-    .treding-wrapper{
-        margin: 30px;
+    .treding-wrapper,p{
+        font-size=15px;
     }
 
     .detail-img{
@@ -121,6 +123,9 @@
         border:1px solid #4f9296;
         color:black;
         font-weight: 300;
+    }
+    .button1:hover{
+        color: black;
     }
     .naruci{
         margin-left: 100px
