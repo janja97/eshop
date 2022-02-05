@@ -101,6 +101,36 @@ class ProductController extends Controller
 
        return redirect('admindas');
     }
+    function laptop(){
+
+        $data=Product::where('category', 'like' , 'laptop')->get();
+        // $data=Product::all();
+        
+        return view('laptop',['product'=>$data]);
+        
+    }
+    function tableti(){
+
+        $data=Product::where('category', 'like' , 'tablet')->get();
+        // $data=Product::all();
+        
+        return view('tableti',['product'=>$data]);
+    }
+    function gaming(){
+
+        $data=Product::where('category', 'like' , 'gaming')->get();
+        // $data=Product::all();
+        
+        return view('gaming',['product'=>$data]);
+    }
+    function monitor(){
+
+        $data=Product::where('category', 'like' , 'monitor')->get();
+        // $data=Product::all();
+        
+        return view('monitori',['product'=>$data]);
+    }
+    
   
     
    
