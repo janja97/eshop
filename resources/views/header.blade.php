@@ -26,13 +26,12 @@ if(Session::has('user')){
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">IT OPREMA <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="{{url('/single')}}">laptopi</a></li>
-              <li><a href="#">tableti</a></li>
-              <li><a href="#">gaming laptopi</a></li>
-              <li><a href="#">monitori</a></li>
+              <li><a  href="{{url('/laptop')}}" >laptopi</a></li>
+              <li><a href="{{url('/tableti')}}">tableti</a></li>
+              <li><a href="{{url('/gaming')}}">gaming laptopi</a></li>
+              <li><a href="{{url('/monitori')}}">monitori</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="{{url('/search')}}">sve</a></li>
-            </form>
+              <li><a href="#">sve</a></li>
 
             </ul>
           </li>
