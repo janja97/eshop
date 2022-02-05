@@ -19,8 +19,11 @@ class UserController extends Controller
             $req->session()->put('user',$user);
              return redirect('/admindas');
          }
-         elseif($user->uloga==2)
-         return redirect('/administratordas');
+         elseif($user->uloga==2){
+             $req->session()->put('user',$user);
+
+            return redirect('/administratordas');
+         }
 
          else{
             $req->session()->put('user',$user);
