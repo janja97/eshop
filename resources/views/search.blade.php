@@ -16,7 +16,7 @@
                         <img class="treding-img" src="{{$item['galery']}}">
                         <div class="">
                             <h2>{{$item['name']}}</h2>
-                            <h2>{{$item['description']}}</h2>
+                            <h4>{{$item['description']}}</h4>
         
                         </div>
                     </a>
