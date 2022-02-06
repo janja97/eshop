@@ -25,7 +25,7 @@
             <label >kategorije</label><br><br>
             <input type="radio" value="laptop" name="category">Laptop <br>
             <input type="radio" value="tablet"  name="category">Tablet<br>
-            <input type="radio" value="gaminglaptop"  name="category">Gaming laptop<br>
+            <input type="radio" value="gaming"  name="category">Gaming laptop<br>
             <input type="radio" value="monitor"  name="category">Monitor<br>
             
 
