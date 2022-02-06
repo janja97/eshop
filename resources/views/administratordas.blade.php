@@ -23,10 +23,10 @@
 
         <div class="form-group">
             <label >kategorije</label><br><br>
-            <input type="radio" value="laptop" name="category">laptop <br>
-            <input type="radio" value="tablet"  name="category">tablet<br>
-            <input type="radio" value="gaminglaptop"  name="category">gaming laptop<br>
-            <input type="radio" value="monitor"  name="category"><br>
+            <input type="radio" value="laptop" name="category">Laptop <br>
+            <input type="radio" value="tablet"  name="category">Tablet<br>
+            <input type="radio" value="gaminglaptop"  name="category">Gaming laptop<br>
+            <input type="radio" value="monitor"  name="category">Monitor<br>
             
 
 
